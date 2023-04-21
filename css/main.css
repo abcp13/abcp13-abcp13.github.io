@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+/*comentarioooos*/
+header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    /*justificar a la derecha*/
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    /*Eliminar los puntos de la lista*/
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px; /*25*/
+    color:black
+}
+/* icono del menú*/
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav .nav-right-section img{
+    border-radius: 60px;
+    /*separar imagenes con margenes*/
+    margin-left: 25px;
+    width: 35px;
+    height: 35px;
+}
+/******************************/
+/*AHORA EL ESTILO DEL MAIN*/
+
+main {
+    margin-top: 50px;
+    /*background-color: plum;*/
+    text-align:center ;
+}
+
+main .main-logo{
+    /*background-color: black;*/
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
+    height: 100px;
+}
+
+/*SECCIÓN INPUT*/
+main .main-input{
+   /*background-color: tomato;*/
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+    /*background-color: orange;*/
+    width: 500px;
+    border-radius: 80px;
+    border: 1px solid cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    border: none;
+    width: 450px;
+    height: 40px;
+    border-radius: 80px;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    /*background-color: yellow;*/
+    box-shadow: 1px 1px 1px 1px #20212447;
+}
+
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-input .cam-icon{
+    background-image: url("../lens.png");
+    width: 50px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-button div{
+    display: inline-block;
+}
+
+main .main-button button{
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 30px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(245, 244, 244);
+    width: 100%;
+    height: 15px;
+    padding: 20px;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer div .buttons-left{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    color: black;
+    margin-right: 5px;
+    margin-left: 10px;
+   
+}
+
+footer div .buttons-left a{
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer div .buttons-right{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: black;
+    align-items: center;
+    margin-left: 580px;
+    margin-right: 5px;
+}
+
+footer div .buttons-right a{
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+}
+
+
+
